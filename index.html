@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Our Love Story ❤️</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="romantic.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Main Story Card -->
+  <div class="story-card">
+
+    <!-- Media Section -->
+    <div class="media-box" id="mediaContainer">
+      <img src="FirstDate.jpg" id="storyImage" alt="Love Memory">
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+
+      <h2 id="storyTitle">How We Met ❤️</h2>
+
+      <p id="storyText">
+        On that beautiful trip, our paths crossed for the first time… and from that very moment, my love story quietly began..
+      </p>
+
+      <!-- Music Button -->
+      <button class="music-btn" onclick="playMusic()">
+        🎵 Play Music
+      </button>
+
+      <!-- Next Button -->
+      <button onclick="nextStory()">
+        Next Moment ➡️
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Floating Hearts -->
+  <div class="hearts"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
